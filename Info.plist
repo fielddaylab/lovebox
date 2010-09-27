@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBuildNumber</key>
-	<string>1204:1238M</string>
+	<string>1320M</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>Bike Box</string>
+	<string>Love Box</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>

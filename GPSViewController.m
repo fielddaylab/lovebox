@@ -95,8 +95,8 @@
 	
 	if (!nearbyLocationsThatAreNotPlayersExist) { 
 		NSLog(@"GPSViewController: No nearby Locations");
-		[mainButton setTitle: @"Record" forState: UIControlStateNormal];
-		[mainButton setTitle: @"Record" forState: UIControlStateHighlighted];	
+		[mainButton setTitle: @"Kiss and Tell" forState: UIControlStateNormal];
+		[mainButton setTitle: @"Kiss and Tell" forState: UIControlStateHighlighted];	
 
 		lastNearbyLocation = nil;
 		
@@ -133,7 +133,7 @@
 			lastNearbyLocation = bestLocation;
 			[lastNearbyLocation retain];
 			ARISAppDelegate* appDelegate = (ARISAppDelegate *)[[UIApplication sharedApplication] delegate];
-			[appDelegate playAudioAlert:@"bikeBell" shouldVibrate:YES];
+			[appDelegate playAudioAlert:@"whistle" shouldVibrate:YES];
 			
 			int mediaId;
 			

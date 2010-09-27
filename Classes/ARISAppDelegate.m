@@ -38,7 +38,7 @@
 					   ([url port] ? [[url port] intValue] : 80)];
 	appModel.jsonServerBaseURL = [NSString stringWithFormat:@"%@%@",
 							  appModel.baseAppURL, @"json.php/aris"];	
-	appModel.gameId = 200;
+	appModel.gameId = 265;
 	[appModel retain];
 	
 	

@@ -25,7 +25,7 @@
 		self.backgroundColor = [UIColor clearColor];
 		self.numberofBars = 20;
 		self.spacingBetweenBars = 1;
-		self.activeColor = [UIColor blueColor];
+		self.activeColor = [UIColor redColor];
 		self.inactiveColor = [UIColor clearColor];
 		
 		

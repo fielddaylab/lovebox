@@ -2,17 +2,17 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1024</int>
-		<string key="IBDocument.SystemVersion">10D573</string>
-		<string key="IBDocument.InterfaceBuilderVersion">788</string>
+		<string key="IBDocument.SystemVersion">10F569</string>
+		<string key="IBDocument.InterfaceBuilderVersion">804</string>
 		<string key="IBDocument.AppKitVersion">1038.29</string>
-		<string key="IBDocument.HIToolboxVersion">460.00</string>
+		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">117</string>
+			<string key="NS.object.0">123</string>
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="6"/>
+			<integer value="25"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -77,14 +77,14 @@
 							<int key="NSfFlags">16</int>
 						</object>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Upload to Bike Box</string>
+						<string key="IBUINormalTitle">Upload to Love Box</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="696196319">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
 						</object>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">2</int>
-							<bytes key="NSRGB">MC4wMTk2MDc4NDM4MyAwLjYxOTYwNzg2NTggMC45NDExNzY1MzM3AA</bytes>
+							<bytes key="NSRGB">MC44NzA1ODgzMDI2IDAuMDc0NTA5ODA2OTMgMC4wOTAxOTYwODA1MQA</bytes>
 						</object>
 						<object class="NSColor" key="IBUINormalTitleShadowColor" id="697169979">
 							<int key="NSColorSpace">3</int>
@@ -104,11 +104,11 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="943948428"/>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUINormalTitle">Record</string>
+						<string key="IBUINormalTitle">Kiss and Tell</string>
 						<reference key="IBUIHighlightedTitleColor" ref="696196319"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">2</int>
-							<bytes key="NSRGB">MC4wMTk2MDc4NDM4MyAwLjYxOTYwNzg2NTggMC45NDExNzY1MzM3AA</bytes>
+							<bytes key="NSRGB">MC44NzA1ODgzMDI2IDAuMDc0NTA5ODA2OTMgMC4wOTAxOTYwODA1MQA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="697169979"/>
 					</object>
@@ -129,7 +129,7 @@
 						<reference key="IBUIHighlightedTitleColor" ref="696196319"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">2</int>
-							<bytes key="NSRGB">MC4wMTk2MDc4NDM4MyAwLjYxOTYwNzg2NTggMC45NDExNzY1MzM3AA</bytes>
+							<bytes key="NSRGB">MC44NzA1ODgzMDI2IDAuMDc0NTA5ODA2OTMgMC4wOTAxOTYwODA1MQA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="697169979"/>
 					</object>
@@ -234,9 +234,9 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="835209662"/>
-							<reference ref="826807175"/>
-							<reference ref="885407954"/>
 							<reference ref="29781883"/>
+							<reference ref="885407954"/>
+							<reference ref="826807175"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -270,6 +270,7 @@
 					<string>-2.CustomClassName</string>
 					<string>11.IBPluginDependency</string>
 					<string>16.IBPluginDependency</string>
+					<string>16.IBViewBoundsToFrameTransform</string>
 					<string>18.IBPluginDependency</string>
 					<string>6.IBEditorWindowLastContentRect</string>
 					<string>6.IBPluginDependency</string>
@@ -280,8 +281,11 @@
 					<string>UIResponder</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABCAAAAw6EAAA</bytes>
+					</object>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{261, 224}, {320, 480}}</string>
+					<string>{{270, 218}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -509,7 +513,7 @@
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="240475204">
+					<object class="IBClassDescriptionSource" key="sourceIdentifier" id="866901296">
 						<string key="majorKey">IBFrameworkSource</string>
 						<string key="minorKey">UIKit.framework/Headers/UIResponder.h</string>
 					</object>
@@ -541,7 +545,7 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">UIResponder</string>
 					<string key="superclassName">NSObject</string>
-					<reference key="sourceIdentifier" ref="240475204"/>
+					<reference key="sourceIdentifier" ref="866901296"/>
 				</object>
 				<object class="IBPartialClassDescription">
 					<string key="className">UISearchBar</string>
@@ -621,13 +625,17 @@
 		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
+		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">
+			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
+			<integer value="1024" key="NS.object.0"/>
+		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
 			<integer value="1024" key="NS.object.0"/>
 		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
-			<integer value="3100" key="NS.object.0"/>
+			<integer value="3000" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<string key="IBDocument.LastKnownRelativeProjectPath">ARIS.xcodeproj</string>
@@ -636,6 +644,6 @@
 			<string key="NS.key.0">microphoneBackground.png</string>
 			<string key="NS.object.0">{320, 480}</string>
 		</object>
-		<string key="IBCocoaTouchPluginVersion">117</string>
+		<string key="IBCocoaTouchPluginVersion">123</string>
 	</data>
 </archive>
